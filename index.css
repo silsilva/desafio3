@@ -1,0 +1,391 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* sector de INTRO*/
+.contenedor {
+  width: auto;
+  background: url(./puntitos.svg);
+}
+@media (min-width: 900px) {
+  .contenedor {
+    max-width: none;
+    padding: 80px;
+  }
+  .intro {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.logo img {
+  width: 54px;
+  height: 50px;
+}
+@media (min-width: 900px) {
+  .logo img {
+    width: 95px;
+    height: 109px;
+  }
+}
+.burguer img {
+  width: 36px;
+  height: 32px;
+}
+
+@media (min-width: 900px) {
+  .burguer img {
+    display: none;
+  }
+}
+.menu {
+  display: none;
+}
+@media (min-width: 900px) {
+  .menu {
+    display: flex;
+    width: 428px;
+    height: 28px;
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+}
+.caja-titulo {
+  padding-top: 120px;
+}
+.titulo {
+  width: 291px;
+  height: 96px;
+  font-family: "Open sans";
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #000000;
+  margin: auto;
+}
+
+.foto {
+  width: 318px;
+  height: 300px;
+}
+@media (min-width: 900px) {
+  .foto {
+    width: 435px;
+    height: 395px;
+  }
+}
+.foto-contenedor {
+  padding-top: 58px;
+  display: flex;
+  justify-content: center;
+}
+/*contenedor Negro*/
+.contenedor-negro {
+  display: block;
+  background-color: black;
+  color: azure;
+  width: 100%;
+  border: solid #000;
+}
+@media (min-width: 900px) {
+  .contenedor-negro {
+    padding: 50px 300px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.subtitulo {
+  width: 375px;
+  text-align: center;
+  padding: 20px 55px;
+  font-size: 32px;
+  letter-spacing: -2px;
+  color: #fafafa;
+}
+@media (min-width: 900px) {
+  .subtitulo {
+    padding: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+.texto-principal {
+  width: 312px;
+  height: 193px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  color: #fafafa;
+  margin-left: 31px;
+
+  justify-content: center;
+}
+@media (min-width: 900px) {
+  .texto-principal {
+    width: 532px;
+    height: 165px;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+  }
+}
+.imagenv {
+  width: 100%;
+  padding: 0 147px 68px 147px;
+}
+@media (min-width: 900px) {
+  .imagenv {
+    padding-right: 0;
+    margin-right: 0px;
+  }
+}
+.imagen-verde {
+  width: 80px;
+  height: auto;
+  display: block;
+}
+@media (min-width: 900px) {
+  .imagen-verde {
+    width: 211px;
+  }
+}
+
+/*servicios imagens compus*/
+.contenedor2 {
+  width: 375px;
+  background: #fafafa;
+}
+@media (min-width: 900px) {
+  .contenedor2 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.mis-servicios {
+  width: 375px;
+  font-family: "Open sans";
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .mis-servicios {
+    width: 100%;
+    padding-top: 59px;
+  }
+}
+.intro3 {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .intro3 {
+    width: 100%;
+    background: #fafafa;
+    padding: 59px 86px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.desktop {
+  width: 138px;
+  height: 129px;
+  margin: 0 118px;
+}
+@media (min-width: 900px) {
+  .desktop {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.hago {
+  font-family: "Roboto";
+  color: #2c2c2c;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.texto {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  margin: 20px 56px;
+}
+@media (min-width: 900px) {
+  .texto {
+    width: 262px;
+    height: 115px;
+  }
+}
+/*formulario*/
+.form {
+  background-color: #141414;
+  color: #fafafa;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  height: 660px;
+  padding-bottom: 0;
+}
+@media (min-width: 900px) {
+  .form {
+    max-width: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 59px 86px;
+  }
+}
+.contenedor-formulario {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.escribime {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+@media (min-width: 900px) {
+  .escribime {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+.label {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 15px;
+  display: block;
+  margin-bottom: 9px;
+  margin-top: 20px;
+  text-align: left;
+}
+.input-text,
+textarea {
+  border: 3px solid #2c2c2c;
+  width: 335px;
+  height: 45px;
+  border-radius: 4px;
+}
+@media (min-width: 900px) {
+  .input-text,
+  .textarea {
+    width: 376px;
+  }
+}
+.textarea {
+  height: 113px;
+}
+.button {
+  width: 335px;
+  height: 45px;
+  background-color: #ffd953;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  color: #141414;
+  margin-top: 70px;
+}
+@media (min-width: 900px) {
+  .button {
+    width: 376px;
+  }
+}
+/*footer*/
+.footer {
+  border: solid #dbdbdb;
+  background: #dbdbdb;
+
+  width: 100%;
+  height: 593px;
+}
+@media (min-width: 990px) {
+  .footer {
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 59px 86px;
+    background: url(./Mask\ Group.svg);
+  }
+}
+
+.logo2 {
+  display: block;
+  width: 77px;
+  height: 71px;
+  margin: 53px 16px 0 16px;
+}
+@media (min-width: 990px) {
+  .logo2 {
+    width: 112px;
+    height: 103px;
+    margin-left: 80px;
+  }
+}
+.copy {
+  display: block;
+  text-align: left;
+  margin: 16px 0 89px 20px;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 15px;
+  color: #2c2c2c;
+}
+@media (min-width: 990px) {
+  .copy {
+    margin-left: 95px;
+  }
+}
+.imagen-red {
+  width: 27px;
+  margin-right: 8px;
+  float: left;
+  margin-top: 20px;
+}
+
+.redes p {
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: left;
+  line-height: 19px;
+  color: #2c2c2c;
+
+  margin-top: 30px;
+}
+.redes {
+  margin: 0 20px 119px 20px;
+
+  display: block;
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+@media (min-width: 990px) {
+  .redes {
+    margin-top: 60px;
+  }
+}
